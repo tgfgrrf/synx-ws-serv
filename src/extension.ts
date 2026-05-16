@@ -168,7 +168,7 @@ export function activate(context: vscode.ExtensionContext) {
 
     runItem.command = "synx-ws-serv.execute";
     runItem.tooltip = "Execute script";
-    runItem.text = "$(debug-start) Synapse Execute";
+    runItem.text = "$(debug-start) Custom Execute";
     runItem.show();
 
     context.subscriptions.push(runItem);
